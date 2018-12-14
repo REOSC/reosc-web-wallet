@@ -34,7 +34,7 @@
 
     <div class="cont-md" ng-show="txInfo.status == txStatus.mined">
       <h3 class="text-success" translate="tx_FoundOnChain"> Transaction Found </h3>
-      <h5> <a href="https://explorer.akroma.io/transaction/{{ tx.hash }}" target="_blank" rel="noopener noreferrer"> {{ tx.hash }} </a> </h5>
+      <h5> <a href="https://explorer.reosc.io/transaction/{{ tx.hash }}" target="_blank" rel="noopener noreferrer"> {{ tx.hash }} </a> </h5>
       <p><strong translate="tx_FoundOnChain_1"></strong></p>
       <ul>
         <li translate="tx_FoundOnChain_2"></li>

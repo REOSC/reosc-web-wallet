@@ -3,21 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>w.akroma.io</title>
+<title>REOSC Ecosystem Web Wallet</title>
 
-<meta property="og:title" content="w.akroma.io - Akroma Web Wallet">
-<meta property="og:site_name" content="w.akroma.io - Akroma Web Wallet">
-<meta name="twitter:title" content="w.akroma.io - Akroma Web Wallet">
-<meta name="apple-mobile-web-app-title" content="w.akroma.io - Akroma Web Wallet">
-<link href="https://w.akroma.io" rel="canonical">
-<meta content="https://w.akroma.io" property="og:url">
-<meta content="https://w.akroma.io" name="twitter:url">
+<meta property="og:title" content="wallet.reosc.io - REOSC Ecosystem Web Wallet">
+<meta property="og:site_name" content="wallet.reosc.io - REOSC Ecosystem Web Wallet">
+<meta name="twitter:title" content="wallet.reosc.io - REOSC Ecosystem Web Wallet">
+<meta name="apple-mobile-web-app-title" content="wallet.reosc.io - REOSC Ecosystem Web Wallet">
+<link href="https://wallet.reosc.io" rel="canonical">
+<meta content="https://wallet.reosc.io" property="og:url">
+<meta content="https://wallet.reosc.io" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<meta name="description" content="Akroma Web Wallet. Interact with the Akroma blockchain easily & securely.">
-<meta property="og:description"  content="Akroma Web Wallet. Interact with the Akroma blockchain easily & securely.">
-<meta name="twitter:description" content="Akroma Web Wallet. Interact with the Akroma blockchain easily & securely.">
+<meta name="description" content="REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely.">
+<meta property="og:description"  content="REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely.">
+<meta name="twitter:description" content="REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 
@@ -39,34 +39,33 @@
 
 
 <!-- <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" /> -->
-<meta name="apple-mobile-web-app-title" content="Akroma Web Wallet. Interact with the Akroma blockchain easily & securely.">
-<meta name="application-name" content="Akroma Web Wallet">
+<meta name="apple-mobile-web-app-title" content="REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely.">
+<meta name="application-name" content="REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely.">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
 
-<meta property="og:url" content="https://w.akroma.io" />
-<meta property="og:title" content="Akroma Web Wallet. Interact with the Akroma blockchain easily & securely." />
+<meta property="og:url" content="https://wallet.reosc.io" />
+<meta property="og:title" content="REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely." />
 <meta property="og:type" content="website">
-<meta property="og:image" content="/images/Akroma.jpg" />
-<meta name="twitter:image" content="/images/Akroma.jpg">
+<meta property="og:image" content="/images/reosc.jpg" />
+<meta name="twitter:image" content="/images/reosc.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@akroma_io">
-<meta name="twitter:creator" content="@akroma_io">
+<meta name="twitter:site" content="@reosc_io">
+<meta name="twitter:creator" content="@reosc_io">
 <script type="application/ld+json">
 {
 "@context": "http://schema.org",
 "@type" : "Organization",
-"name" : "Akroma Web Wallet",
+"name" : "REOSC Ecosystem Web Wallet",
 "legalName" : "",
-"url" : "https://w.akroma.io/"],
-"logo" : "https://w.akroma.io/images/Akroma.jpg",
-"description": "Akroma Web Wallet. Interact with the Akroma blockchain easily & securely.",
+"url" : "https://wallet.reosc.io/"],
+"logo" : "https://wallet.reosc.io/images/reosc.jpg",
+"description": "REOSC Ecosystem Web Wallet. Interact with the REOSC blockchain easily & securely.",
 "sameAs" : [
-  "https://w.akroma.io/",
-  "https://twitter.com/akroma_io",
-  "https://medium.com/akroma",
-  "https://github.com/akroma-project/akroma-wallet-web",
-  "https://github.com/akroma-project"
+  "https://wallet.reosc.io/",
+  "https://twitter.com/reosc2",
+  "https://github.com/REOSC/reosc-wallet-web",
+  "https://github.com/REOSC"
 ]
 }
 </script>
@@ -78,7 +77,7 @@
 @@if (site === 'mew' ) {
   <div class="small announcement annoucement-danger">
     <div class="container">
-      DON'T GET PHISHED, BOOKMARK <a href="https://w.akroma.io"> https://w.akroma.io</a>
+      DON'T GET PHISHED, BOOKMARK <a href="https://wallet.reosc.io"> https://wallet.reosc.io</a>
     </div>
   </div>
 }
@@ -86,8 +85,7 @@
 <section class="bg-gradient header-branding">
   <section class="container">
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="images/logo-akroma-web-wallet.svg"   height="64px" width="245px" alt="Akroma Web Wallet" />
-        <!-- <h1>Akroma Web Wallet</h1> -->
+        <img src="images/reosc.svg"   height="64px" width="64px" alt="REOSC Ecosystem Web Wallet" ><span style="font-size: 32px"> REOSC Ecosystem Web Wallet</span>  
         <p class="small visible-xs">3.23.0</p>
       </a>
    
@@ -203,10 +201,10 @@
   <div class="nav-scroll">
     <ul class="nav-inner">
       <li class="nav-item help">
-        <a href="https://www.akroma.io" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.reosc.io" target="_blank" rel="noopener noreferrer">
           <span>
             <strong>
-            Visit Akroma.io
+            Visit reosc.io
           </strong>
           </span>
         </a>
@@ -219,7 +217,7 @@
             <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a>
       </li>
       <li class="nav-item help">
-        <a href="https://github.com/akroma-project/akroma-wallet-web" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/REOSC/reosc-web-wallet" target="_blank" rel="noopener noreferrer">
           <span translate="NAV_Help">
             Help
           </span>

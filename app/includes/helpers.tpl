@@ -1,11 +1,11 @@
 <div class="" ng-controller="helpersCtrl">
 
   <h1>
-    Convert Akroma Units (e.g. Akroma <-> Wei)
+    Convert REOSC Units (e.g. REOSC <-> Wei)
   </h1>
 
   <h2 class="p">
-    Akroma Wei Converter
+    REOSC Wei Converter
   </h2>
 
   <section class="mono">
@@ -347,7 +347,7 @@
   <br /><br /><br />
 
 
-  <h1> Akroma Unit Reference Guide
+  <h1> REOSC Unit Reference Guide
   </h1>
   <table class="table table-striped mono">
     <tr>

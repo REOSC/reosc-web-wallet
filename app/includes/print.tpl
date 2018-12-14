@@ -2,7 +2,7 @@
 <div class="tab-pane" id="panePrint" style="display: none;">
   <div class="print-container">
     <span id="printwalletjson" style="display: none;"></span>
-    <img src="images/logo-akroma-1.png" class="ether-logo-1" height="100%" width="auto" />
+    <img src="images/logo-reosc-1.png" class="ether-logo-1" height="100%" width="auto" />
     <img src="images/logo-ethereum-2.png" class="ether-logo-2" />
     <img src="images/print-sidebar.png" height="100%" width="auto" class="print-title" />
     <div class="print-qr-code-1">

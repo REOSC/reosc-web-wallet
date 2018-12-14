@@ -104,7 +104,7 @@ EOS_02                          :  '**ＥＯＳの鍵を登録／転写する**'
 EOS_03                          :  '`register`を選択する', /*Select `register`*/
 EOS_04                          :  '**ＥＯＳの公開鍵**を入力する　<---　ＥＯＳの公開鍵に注意！', /*Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!*/
 EOS_05                          :  '送出ページでＥＯＳの契約に入金', /*Fund EOS Contract on Send Page*/
-EOS_06                          :  'Akroma/トークンの送出ページに移動', /*Go to Send Akroma & Tokens Page*/
+EOS_06                          :  'REOSC/トークンの送出ページに移動', /*Go to Send REOSC & Tokens Page*/
 EOS_07                          :  '解錠中のお財布と同じものをここで解錠', /*Unlock same wallet you are unlocking here.*/
 EOS_08                          :  '支援する数量を`0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`に送出する', /*Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`*/
 EOS_09                          :  'ＥＯＳトークンを請求', /*Claim EOS Tokens*/
@@ -172,7 +172,7 @@ ONBOARD_secure_title            :  '自分自身とその資産の守り方　',
 ONBOARD_secure_1_title          :  'オンライン詐欺から自分自身を守る方法　', /*How To Protect Yourself from Phishers*/
 ONBOARD_secure_1_content__1     :  'オンライン詐欺師は、MyEtherWallet、EtherDelta、Paypalやあなたの金融機関のリンクが含まれた個人メッセージを送りつけてきますが、これは偽のサイトです。あなたの情報を盗み、そして資産を盗みます。', /*Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.*/
 ONBOARD_secure_1_content__2     :  '[EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)または[MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige). のクローム拡張を使って、これらの悪意のサイトを遮断してください。', /*Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or  or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.*/
-ONBOARD_secure_1_content__3     :  'いつも、必ず、ＵＲＬ：「https://w.akroma.io」を確認してください。', /*Always check the URL: `https://w.akroma.io`.*/
+ONBOARD_secure_1_content__3     :  'いつも、必ず、ＵＲＬ：「https://wallet.reosc.io」を確認してください。', /*Always check the URL: `https://wallet.reosc.io`.*/
 ONBOARD_secure_1_content__4     :  'ＵＲＬバーに、 `MYETHERWALLET LLC [US]`と緑色で表示されていることを必ず確認してください。', /**/
 ONBOARD_secure_1_content__5     :  'ｅメール、Slack、Reddit、Twitterやその他から送られてくるメッセージやリンクを信用しないでください。', /*Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.*/
 ONBOARD_secure_1_content__6     :  '情報を入力する前に、常に直接サイトを参照してから閲覧してください。ｅメールやメッセージのリンクを押してから情報を入力しないでください。', /*Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.*/
@@ -301,7 +301,7 @@ ERROR_24                    : '(error_25) 正しいポートを入力してく�
 ERROR_25                    : '(error_26) 正しい chain ID を入力してください (Please enter a valid chain ID.) ',
 ERROR_26                    : '(error_27) 正しい ABI を入力してください (Please enter a valid ABI.) ',
 ERROR_27                    : '(error_28) 最小値: 0.01. 最大値: (Minimum amount: 0.01. Max amount:) ',
-ERROR_28                    : '(error_29) お財布を操作するためには**Keystore/JSONとパスワードか秘密鍵が必要** 保存してから、外部バックアップしてください！ここで保存しないとお財布が使用できなくなります。詳細はヘルプページを参照してください。(https://w.akroma.io/#help) (You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future. ) ',
+ERROR_28                    : '(error_29) お財布を操作するためには**Keystore/JSONとパスワードか秘密鍵が必要** 保存してから、外部バックアップしてください！ここで保存しないとお財布が使用できなくなります。詳細はヘルプページを参照してください。(https://wallet.reosc.io/#help) (You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future. ) ',
 ERROR_29                    : '(error_30) 正しいユーザーとパスワードを入力してください (Please enter a valid user and password.) ',
 ERROR_30                    : '(error_31) 正しい ENS名を入力してください (Please enter a valid name (7+ characters, limited punctuation)) ',
 ERROR_31                    : '(error_32) 無効な秘密フレーズです (Please enter a valid secret phrase.) ',
@@ -421,7 +421,7 @@ NAV_InteractContract        : '契約を操作 ',
 NAV_Multisig                : '多重署名 ',
 NAV_MyWallets               : '自分のお財布 ',
 NAV_Offline                 : 'オフライン送出 ',
-NAV_SendEther               : 'Akroma/トークンの送出 ',
+NAV_SendEther               : 'REOSC/トークンの送出 ',
 NAV_SendTokens              : 'トークン送出 ',
 NAV_SignMsg                 : 'メッセージ署名 ',
 NAV_Swap                    : '通貨の両替 ',
@@ -559,7 +559,7 @@ tx_notFound_3               : '別の処理プールで発掘待ちになって�
 tx_notFound_4               : '右上の下展開メニューから、別のノードを選択してください。 (例： `ETH (Etherscan.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) から選んで再度確認する。',
 tx_Summary                  : '数日後に処理状況を確認した場合をのぞいて、大量の処理発生時(ICO期間など)には、数時間処理が遅れる場合があります。本ツールは、そのような状況において処理待ちの処理を探し出し取り消す、あるいは更新する機能を提供します。＊＊これは特殊な操作で、処理プールが満杯の場合にのみ有効です。  [このツールに関しては、こちらを参考にしてください。](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html)**',
 
-TXFEE_Desc                  : 'この処理料金は自分の処理をブロックに配置するためにマイナーに支払われます。「ガスリミット」＊「ガス価格」で算出されます。 [GWEI -> ETHの単位変換はこちらです。](https://w.akroma.io/helpers.html)',　/*The TX Fee is paid to miners for including your TX in a block. It is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://w.akroma.io/helpers.html)*/
+TXFEE_Desc                  : 'この処理料金は自分の処理をブロックに配置するためにマイナーに支払われます。「ガスリミット」＊「ガス価格」で算出されます。 [GWEI -> ETHの単位変換はこちらです。](https://wallet.reosc.io/helpers.html)',　/*The TX Fee is paid to miners for including your TX in a block. It is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://wallet.reosc.io/helpers.html)*/
 
 VIEWWALLET_HidePrivKey      : '(hide)',
 VIEWWALLET_ShowPrivKey      : '(show)',
@@ -606,11 +606,11 @@ x_TXT                       : 'TXT ファイル (未暗号化) ',
 x_Wallet                    : 'お財布 ',
 
 HELP_0_Title                : '0) I\'m new. What do I do? ',
-HELP_0_Desc_1               : 'MyEtherWallet gives you the ability to generate new wallets so you can store your Akroma yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**. ',
+HELP_0_Desc_1               : 'MyEtherWallet gives you the ability to generate new wallets so you can store your REOSC yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**. ',
 HELP_0_Desc_2               : 'Create a new wallet. ',
 HELP_0_Desc_3               : 'Back the wallet up. ',
 HELP_0_Desc_4               : 'Verify you have access to this new wallet and have correctly saved all necessary information. ',
-HELP_0_Desc_5               : 'Transfer Akroma to this new wallet. ',
+HELP_0_Desc_5               : 'Transfer REOSC to this new wallet. ',
 HELP_1_Title                : '1) How do I create a new wallet? ',
 HELP_1_Desc_1               : 'Go to the "Generate Wallet" page. ',
 HELP_1_Desc_2               : 'Go to the "Add Wallet" page & select "Generate New Wallet" ',
@@ -619,7 +619,7 @@ HELP_1_Desc_4               : 'Click "GENERATE". ',
 HELP_1_Desc_5               : 'Your wallet has now been generated. ',
 HELP_2a_Desc_1              : 'You should always back up your wallet externally and in multiple physical locations - like on a USB drive and/or a piece of paper. ',
 HELP_2a_Desc_2              : 'Save the address. You can keep it to yourself or share it with others. That way, others can transfer ether to you. ',
-HELP_2a_Desc_3              : 'Save versions of the private key. Do not share it with anyone else. Your private key is necessary when you want to access your Akroma to send it! There are 3 types of private keys: ',
+HELP_2a_Desc_3              : 'Save versions of the private key. Do not share it with anyone else. Your private key is necessary when you want to access your REOSC to send it! There are 3 types of private keys: ',
 HELP_2a_Desc_4              : 'Place your address, versions of the private key, and the PDF version of your paper wallet in a folder. Save this on your computer and a USB drive. ',
 HELP_2a_Desc_5              : 'Print the wallet if you have a printer. Otherwise, write down your private key and address on a piece of paper. Store this as a secure location, separate from your computer and the USB drive. ',
 HELP_2a_Desc_6              : 'Keep in mind, you must prevent loss of the keys and password due to loss or failure of you hard drive failure, or USB drive, or piece of paper. You also must keep in mind physical loss / damage of an entire area (think fire or flood). ',
@@ -634,7 +634,7 @@ HELP_2b_Desc_6              : 'Save the address. Save versions of the private ke
 HELP_2b_Desc_7              : 'Store these papers / USBs in multiple physically separate locations. ',
 HELP_2b_Desc_8              : 'Go to the "View Wallet Info" page and type in your private key / password to ensure they are correct and access your wallet. Check that the address you wrote down is the same. ',
 HELP_3_Title                : '3) How do I verify I have access to my new wallet? ',
-HELP_3_Desc_1               : '**Before you send any Akroma to your new wallet**, you should ensure you have access to it. ',
+HELP_3_Desc_1               : '**Before you send any REOSC to your new wallet**, you should ensure you have access to it. ',
 HELP_3_Desc_2               : 'Navigate to the "View Wallet Info" page. ',
 HELP_3_Desc_3               : 'Navigate to the MyEtherWallet.com "View Wallet Info" page. ',
 HELP_3_Desc_4               : 'Select your wallet file -or- your private key and unlock your wallet. ',
@@ -642,7 +642,7 @@ HELP_3_Desc_5               : 'If the wallet is encrypted, a text box will autom
 HELP_3_Desc_6               : 'Click the "Unlock Wallet" button. ',
 HELP_3_Desc_7               : 'Your wallet information should show up. Find your account address, next to a colorful, circular icon. This icon visually represents your address. Be certain that the address is the address you have saved to your text document and is on your paper wallet. ',
 HELP_3_Desc_8               : 'If you are planning on holding a large amount of ether, we recommend that send a small amount of ether from new wallet before depositing a large amount. Send 0.001 ether to your new wallet, access that wallet, send that 0.001 ether to another address, and ensure everything works smoothly. ',
-HELP_4_Title                : '4) How do I send Akroma from one wallet to another? ',
+HELP_4_Title                : '4) How do I send REOSC from one wallet to another? ',
 HELP_4_Desc_1               : 'If you plan to move a large amount of ether, you should test sending a small amount to your wallet first to ensure everything goes as planned. ',
 HELP_4_Desc_2               : 'Navigate to the "Ether送出 トークン送出" page. ',
 HELP_4_Desc_3               : 'Select your wallet file -or- your private key and unlock your wallet. ',
@@ -655,7 +655,7 @@ HELP_4_Desc_10              : 'A couple more fields will appear. This is your br
 HELP_4_Desc_11              : 'Click the blue "Send Transaction" button below that. ',
 HELP_4_Desc_12              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button. ',
 HELP_4_Desc_13              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
-HELP_4CX_Title              : '4) How do I send Akroma using MyEtherWallet CX? ',
+HELP_4CX_Title              : '4) How do I send REOSC using MyEtherWallet CX? ',
 HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Ether送出 トークン送出" page. ',
 HELP_4CX_Desc_2             : 'QuickSend: ',
 HELP_4CX_Desc_3             : 'Click the Chrome Extension Icon. ',
@@ -700,12 +700,12 @@ HELP_7_Desc_14              : 'A pop-up will appear. Verify that the amount and 
 HELP_7_Desc_15              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
 HELP_8_Title                : '8) What happens if your site goes down? ',
 HELP_8_Desc_1               : 'MyEtherWallet is not a web wallet. You don\'t have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain. ',
-HELP_8_Desc_2               : 'If MyEtherWallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your Akroma out of MyEtherWallet because it\'s not in MyEtherWallet. It\'s in whatever wallet your generated via our site. ',
+HELP_8_Desc_2               : 'If MyEtherWallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your REOSC out of MyEtherWallet because it\'s not in MyEtherWallet. It\'s in whatever wallet your generated via our site. ',
 HELP_8_Desc_3               : 'You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #12 below. ',
 HELP_8_Desc_4               : 'In addition, the likelihood of us taking MyEtherWallet down is slim to none. It costs us almost nothing to maintain as we aren\'t storing any information. If we do take the domain down, it still is, and always will be, publicly available at [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). You can download the ZIP there and run it locally. ',
 HELP_8CX_Title              : '8) What happens if MyEtherWallet CX disappears? ',
 HELP_8CX_Desc_1             : 'First, all data is saved on your computer, not our servers. I know it can be confusing, but when you look at the Chrome Extension, you are NOT looking at stuff saved on our servers somewhere - it\'s all saved on your own computer. ',
-HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Akroma. See the #2a for how to back up your wallets. ',
+HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your REOSC. See the #2a for how to back up your wallets. ',
 HELP_8CX_Desc_3             : 'If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above. ',
 HELP_9_Title                : '9) Is the "Ether送出 トークン送出" page offline? ',
 HELP_9_Desc_1               : 'No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka "send"). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an "Offline Transaction" page so that you can ensure your private keys are on an offline/airgapped computer at all times. ',
@@ -752,11 +752,11 @@ HELP_12_Desc_26             : 'This will prompt you to make a new password. This
 HELP_12_Desc_27             : 'After successful import, delete `nothing_special_delete_me.txt` ',
 HELP_12_Desc_28             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
 HELP_13_Title               : '13) What does "Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX." Mean? ',
-HELP_13_Desc_1              : 'This means you do not have enough Akroma in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in Akroma. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of Akroma you were trying to send (if you were attempting to send Akroma). This will give you the amount of Akroma you need to send to that account to make the transaction. ',
+HELP_13_Desc_1              : 'This means you do not have enough REOSC in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in REOSC. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of REOSC you were trying to send (if you were attempting to send REOSC). This will give you the amount of REOSC you need to send to that account to make the transaction. ',
 HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. MyEtherWallet.com doesn\'t do this. Is the random number generation for MyEtherWallet safe? ',
 HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experiments) believe in window.crypto. In addition, MyEtherWallet.com can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
 HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan) ',
-HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Akroma to it. ',
+HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some REOSC to it. ',
 HELP_16_Title               : '16) How do I check the balance of my account? ',
 HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
@@ -778,8 +778,8 @@ HELP_21_Desc_8              : 'Of course, this all assumes that keys are generat
 HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details. ',
 HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
 HELP_Remind_Title           : 'Some reminders ',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Akroma**. ',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com & MyEtherWallet CX are not "web wallets". You do not create an account or give us your Akroma to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
+HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost REOSC**. ',
+HELP_Remind_Desc_2          : 'MyEtherWallet.com & MyEtherWallet CX are not "web wallets". You do not create an account or give us your REOSC to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
 HELP_Remind_Desc_3          : 'If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer! ',
 HELP_SecCX_Title            : 'Security - MyEtherWallet CX ',
 HELP_SecCX_Desc_1           : 'Where is this extension saving my information? ',
@@ -792,7 +792,7 @@ HELP_Sec_Title              : 'Security ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
 HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere. ',
-HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://w.akroma.io](https://w.akroma.io). ',
+HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://wallet.reosc.io](https://wallet.reosc.io). ',
 HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/kvhnuke/etherwallet/releases/latest). See #5 above. ',
 HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred. ',
 HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! ',

@@ -1,8 +1,8 @@
 {
-    "name": "Akroma Web Wallet",
-    "version": "3.21.22",
+    "name": "REOSC Web Wallet",
+    "version": "3.23.01",
     "description": "An NPM dist of MyEtherWallet. For easier downloading & updating via CLI.",
-    "author": "Akroma Project",
+    "author": "REOSC Team, le Gift",
     "license": "ISC",
     "devDependencies": {
         "open": "0.0.5"

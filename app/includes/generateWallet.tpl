@@ -40,7 +40,7 @@
       <p translate="x_PasswordDesc"></p>
       <div class="text-center">
         <strong>
-          <a href="https://github.com/akroma-project/akroma-wallet-web/wiki/How-to-Create-a-Wallet"
+          <a href="https://github.com/reosc-project/reosc-wallet-web/wiki/How-to-Create-a-Wallet"
              target="_blank"
              rel="noopener noreferrer"
              translate="GEN_Help_5">

@@ -6,7 +6,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
   $scope.customNodeModal = document.getElementById('customNodeModal') ? new Modal(document.getElementById('customNodeModal')) : null;
   $scope.Validator = Validator;
   $scope.nodeList = nodes.nodeList;
-  $scope.defaultNodeKey = 'akroma_remote';
+  $scope.defaultNodeKey = 'reosc_remote';
   $scope.customNode = {
     options: 'eth',
     name: '',

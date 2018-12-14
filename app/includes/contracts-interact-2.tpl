@@ -48,7 +48,7 @@
           </span>
           <ul>
             <li translate="EOS_06">
-              Go to Send Akroma & Tokens Page
+              Go to Send REOSC & Tokens Page
             </li>
             <li translate="EOS_07">
               Unlock same wallet you are unlocking here.

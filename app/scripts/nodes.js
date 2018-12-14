@@ -4,7 +4,7 @@ nodes.customNode = require("./nodeHelpers/customNode");
 nodes.infuraNode = require("./nodeHelpers/infura");
 nodes.metamaskNode = require("./nodeHelpers/metamask");
 nodes.nodeTypes = {
-	AKA: "AKA",
+	REOSC: "REOSC",
 	Custom: "CUSTOM"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETH, nodes.nodeTypes.Ropsten];
@@ -23,18 +23,18 @@ nodes.customNodeObj = {
 	lib: null
 };
 nodes.nodeList = {
-	akroma_remote: {
-		name: "AKROMA",
-		blockExplorerTX: "https://explorer.akroma.io/transaction/[[txHash]]",
-		blockExplorerAddr: "https://explorer.akroma.io/address/[[address]]",
-		type: nodes.nodeTypes.AKA,
+	reosc_remote: {
+		name: "REOSC",
+		blockExplorerTX: "https://explorer.reosc.io/tx/[[txHash]]",
+		blockExplorerAddr: "https://explorer.reosc.io/addr/[[address]]",
+		type: nodes.nodeTypes.REOSC,
 		eip155: true,
-		chainId: 200625,
-		tokenList: require("./tokens/akromaTokens.json"),
-		abiList: require("./abiDefinitions/akromaAbi.json"),
+		chainId: 2894,
+		tokenList: require("./tokens/reoscTokens.json"),
+		abiList: require("./abiDefinitions/reoscAbi.json"),
 		estimateGas: true,
-		service: "remote.akroma.io",
-		lib: new nodes.customNode("https://remote.akroma.io", "")
+		service: "remote.reosc.io",
+		lib: new nodes.customNode("https://remote.reosc.io", "3000")
 	}
 };
 

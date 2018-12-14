@@ -99,7 +99,7 @@ EOS_02                          :  '**Register / Map your EOS Key**',
 EOS_03                          :  'Select `register`',
 EOS_04                          :  'Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!',
 EOS_05                          :  'Fund EOS Contract on Send Page',
-EOS_06                          :  'Go to Send Akroma & Tokens Page',
+EOS_06                          :  'Go to Send REOSC & Tokens Page',
 EOS_07                          :  'Unlock same wallet you are unlocking here.',
 EOS_08                          :  'Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`',
 EOS_09                          :  'Claim EOS Tokens',
@@ -167,7 +167,7 @@ ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://w.akroma.io`.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://wallet.reosc.io`.',
 ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
@@ -258,7 +258,7 @@ GEN_Unlock                  : 'Desbloquea tu cartera para ver tu dirección',
 GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.',
 GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
 NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
-TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://w.akroma.io/helpers.html)',
+TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://wallet.reosc.io/helpers.html)',
 
 
 
@@ -285,7 +285,7 @@ NAV_YourWallets             : 'Tus carteras ',
 
 /* General */
 x_Access                    : 'Access ',
-x_AddessDesc                : 'Tu dirección también se conoce como tu `número de cuenta` o tu `clave pública`. Es lo que compartes con otras personas para que te puedan enviar Akroma o tokens. Busca el icono de colores de tu dirección. Asegúrate de que coincide con tu cartera de papel y siempre que introduzcas tu dirección en cualquier sitio. Puedes pensar en esto como tu "número de cuenta" o tu "clave pública". Es lo que le das a la gente para que te puedan enviar ether. Ese icono es una forma fácil de reconocer tu dirección. ',
+x_AddessDesc                : 'Tu dirección también se conoce como tu `número de cuenta` o tu `clave pública`. Es lo que compartes con otras personas para que te puedan enviar REOSC o tokens. Busca el icono de colores de tu dirección. Asegúrate de que coincide con tu cartera de papel y siempre que introduzcas tu dirección en cualquier sitio. Puedes pensar en esto como tu "número de cuenta" o tu "clave pública". Es lo que le das a la gente para que te puedan enviar ether. Ese icono es una forma fácil de reconocer tu dirección. ',
 x_Address                   : 'Tu dirección ',
 x_Cancel                    : 'Cancelar ',
 x_CSV                       : 'Archivo CSV (sin encriptar) ',
@@ -312,8 +312,8 @@ x_Wallet                    : 'Cartera ',
 /* Header */
 MEW_Warning_1               : 'Comprueba siempre la URL antes de acceder a tu cartera o crear una cartera nueva. ¡Ten cuidado con los sitios falsos (phishing)! ',
 CX_Warning_1                : 'Asegúrate de tener **copias de seguridad externas** de cualquier cartera que almacenes aquí. Pueden ocurrir muchas cosas que te hagan perder los datos de esta extensión de Chrome; esto incluye desinstalar y volver a instalar la extensión. Esta extensión es un modo de acceder fácilmente a tus carteras, **no** una manera de respaldarlas. ',
-MEW_Tagline                 : 'Cartera Akroma JavaScript de código abierto ejecutado en el cliente ',
-CX_Tagline                  : 'Cartera Akroma JavaScript de código abierto ejecutado en el cliente extensión Chrome ',
+MEW_Tagline                 : 'Cartera REOSC JavaScript de código abierto ejecutado en el cliente ',
+CX_Tagline                  : 'Cartera REOSC JavaScript de código abierto ejecutado en el cliente extensión Chrome ',
 
 /* Footer */
 FOOTER_1                    : 'Una herramienta de código abierto JavaScript que se ejecuta en el lado del cliente, para generar carteras y enviar transacciones Ethereum. ',
@@ -379,7 +379,7 @@ BULK_Label_1                : 'Cantidad de carteras a generar ',
 BULK_Label_2                : 'Generar carteras ',
 BULK_SuccessMsg             : '¡Enhorabuena! Se han generado tus carteras. ',
 
-/* Sending Akroma and Tokens */
+/* Sending REOSC and Tokens */
 SEND_addr                   : 'Dirección de destino ',
 SEND_amount                 : 'Cantidad a enviar ',
 SEND_amount_short           : 'Cantidad ',
@@ -588,7 +588,7 @@ ERROR_24                        :  '(error_25) Introduce un puerto válido Pleas
 ERROR_25                        :  '(error_26) Introduce un chain ID válido Please enter a valid chain ID.', // 25
 ERROR_26                        :  '(error_27) Introduce un ABI válido Please enter a valid ABI.', // 26
 ERROR_27                        :  '(error_28) Cantidad mínima 0.01 Minimum amount: 0.01. Max amount:', // 27
-ERROR_28                        :  '(error_29) **Necesitas tu archivo Keystore/JSON y la contraseña** (o clave privada) para acceder a esta cartera en el futuro. Por favor ¡guárdala y respáldala externamente! No hay modo de recuperar una cartera si no la guardas. Lee la [página de ayuda](https://w.akroma.io/#help) para instrucciones. You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future. ', // 28
+ERROR_28                        :  '(error_29) **Necesitas tu archivo Keystore/JSON y la contraseña** (o clave privada) para acceder a esta cartera en el futuro. Por favor ¡guárdala y respáldala externamente! No hay modo de recuperar una cartera si no la guardas. Lee la [página de ayuda](https://wallet.reosc.io/#help) para instrucciones. You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future. ', // 28
 ERROR_29                        :  '(error_30) Introduce un user & password válido. Please enter a valid user and password.', // 29
 ERROR_30                        :  '(error_31) Introduce un name válido (7+ characters, limited punctuation) Please enter a valid name (7+ characters, limited punctuation)', // 30
 ERROR_31                        :  '(error_32) Introduce un secret phrase válido. Please enter a valid secret phrase.', // 31
@@ -652,16 +652,16 @@ TranslatorAddr_5            : '',
 HELP_Warning                : 'Si creaste una cartera -o- descargaste el repositorio antes del **31 de diciembre de 2015**, por favor comprueba tus carteras y descarga una nueva versión del repositorio. Haz clic para más información. ',
 HELP_Desc                   : '¿Echas algo en falta? ¿Tienes alguna otra pregunta? [Contacta con nosotros](mailto:support@myetherwallet.com) y no solamente contestaremos tu pregunta, sino que mejoraremos esta página para que sea más útil en el futuro. ',
 HELP_Remind_Title           : 'Algunos recordatorios ',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com y MyEtherWallet CX, así como algunas de las librerías JavaScript que utilizamos están en desarrollo activo.** Aunque hemos testeado ampliamente y decenas de miles de carteras han sido creadas exitosamente por personas en todo el planeta, siempre existe la remota posibilidad de que ocurra algo inesperado que haga que se pierdan tus ETH. Por favor no inviertas más de lo que estés dispuesto a perder y, por favor, sé cuidadoso. Si algo ocurriera, lo lamentamos, pero **no somos responsables del Akroma perdido**. ',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com y MyEtherWallet CX no son "carteras web". No estás creando una cuenta ni nos estás entregando tus Akroma para que los guardemos. Toda tu información nunca abandona tu equipo o tu navegador. Te facilitamos que puedas crear, guardar y acceder a tu información e interactuar con la blockchain. ',
+HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com y MyEtherWallet CX, así como algunas de las librerías JavaScript que utilizamos están en desarrollo activo.** Aunque hemos testeado ampliamente y decenas de miles de carteras han sido creadas exitosamente por personas en todo el planeta, siempre existe la remota posibilidad de que ocurra algo inesperado que haga que se pierdan tus ETH. Por favor no inviertas más de lo que estés dispuesto a perder y, por favor, sé cuidadoso. Si algo ocurriera, lo lamentamos, pero **no somos responsables del REOSC perdido**. ',
+HELP_Remind_Desc_2          : 'MyEtherWallet.com y MyEtherWallet CX no son "carteras web". No estás creando una cuenta ni nos estás entregando tus REOSC para que los guardemos. Toda tu información nunca abandona tu equipo o tu navegador. Te facilitamos que puedas crear, guardar y acceder a tu información e interactuar con la blockchain. ',
 HELP_Remind_Desc_3          : 'Si no guardas tu clave privada y contraseña, no hay modo alguno de recuperar el acceso a tu cartera o a los fondos que ésta contiene. ¡Haz copias de seguridad en múltiples ubicaciones físicas, no solamente en tu equipo! ',
 
 HELP_0_Title                : '0) Soy nuevo. ¿Qué hago? ',
-HELP_0_Desc_1               : 'MyEtherWallet te permite generar nuevas carteras para poder almacenar tu Akroma por tu cuenta en lugar de en una casa de cambio. Este proceso tiene lugar por completo en tu equipo, no en nuestros servidores. Por lo tanto, cuando generes una nueva cartera, **eres responsable de hacer una copia de seguridad**. ',
+HELP_0_Desc_1               : 'MyEtherWallet te permite generar nuevas carteras para poder almacenar tu REOSC por tu cuenta en lugar de en una casa de cambio. Este proceso tiene lugar por completo en tu equipo, no en nuestros servidores. Por lo tanto, cuando generes una nueva cartera, **eres responsable de hacer una copia de seguridad**. ',
 HELP_0_Desc_2               : 'Crear una nueva cartera. ',
 HELP_0_Desc_3               : 'Hacer una copia de seguridad de la cartera. ',
 HELP_0_Desc_4               : 'Comprobar que tienes acceso a esta nueva cartera y has guardado correctamente toda la información necesaria. ',
-HELP_0_Desc_5               : 'Transferir Akroma a la nueva cartera. ',
+HELP_0_Desc_5               : 'Transferir REOSC a la nueva cartera. ',
 
 HELP_1_Title                : '1) ¿Cómo creo una nueva cartera? ',
 HELP_1_Desc_1               : 'Ir a la página "Generar cartera". ',
@@ -700,7 +700,7 @@ HELP_3_Desc_8               : 'Si planeas guardar una cantidad elevada de ether,
 
 HELP_4_Title                : '4) ¿Cómo envío ether de una cartera a otra? ',
 HELP_4_Desc_1               : 'Si planeas mover una gran cantidad de ether, deberías probar primero a enviar una pequeña cantidad a tu cartera para asegurarte de que todo funciona según lo esperado. ',
-HELP_4_Desc_2               : 'Ve a la página "Enviar Akroma y Tokens". ',
+HELP_4_Desc_2               : 'Ve a la página "Enviar REOSC y Tokens". ',
 HELP_4_Desc_3               : 'Selecciona tu archivo de cartera -o- tu clave privada y desbloquea tu cartera. ',
 HELP_4_Desc_4               : 'Si la cartera está cifrada aparecerá automáticamente una caja de texto. Introduce la contraseña. ',
 HELP_4_Desc_5               : 'Haz clic en el botón "Desbloquear cartera". ',
@@ -713,7 +713,7 @@ HELP_4_Desc_12              : 'Aparecerá un cuadro emergente. Verifica que la c
 HELP_4_Desc_13              : 'Se enviará la transacción y se mostrará el ID de transacción. Puedes hacer clic en el ID de transacción para verla en la cadena de bloques. ',
 
 HELP_4CX_Title              : '4) ¿Cómo envío ether utilizando MyEtherWallet CX? ',
-HELP_4CX_Desc_1             : 'Antes de nada, necesitas añadir una cartera. Una vez hecho, tienes dos opciones: la función "Enviar" del icono de la extensión de Chrome o la página "Enviar Akroma y Tokens". ',
+HELP_4CX_Desc_1             : 'Antes de nada, necesitas añadir una cartera. Una vez hecho, tienes dos opciones: la función "Enviar" del icono de la extensión de Chrome o la página "Enviar REOSC y Tokens". ',
 HELP_4CX_Desc_2             : 'Envío: ',
 HELP_4CX_Desc_3             : 'Haz clic en el icono de la extensión de Chrome. ',
 HELP_4CX_Desc_4             : 'Haz clic en el botón Click the "Enviar" button. ',
@@ -724,7 +724,7 @@ HELP_4CX_Desc_8             : 'Haz clic en "Enviar transacción". ',
 HELP_4CX_Desc_9             : 'Comprueba que la dirección y la cantidad que estás enviando son correctos. ',
 HELP_4CX_Desc_10            : 'Introduce la contraseña para la cartera. ',
 HELP_4CX_Desc_11            : 'Haz clic en "Enviar transacción". ',
-HELP_4CX_Desc_12            : 'Utilizando la página "Enviar Akroma y Tokens" ',
+HELP_4CX_Desc_12            : 'Utilizando la página "Enviar REOSC y Tokens" ',
 
 HELP_5_Title                : '5) ¿Cómo ejecuto MyEtherWallet.com sin conexión/localmente? ',
 HELP_5_Desc_1               : 'Puedes ejecutar MyEtherWallet.com en tu equipo en lugar de desde los servidores de GitHub. Puedes generar una cartera totalmente sin conexión y enviar transacciones desde la página "Transacción sin conexión". ',
@@ -784,7 +784,7 @@ HELP_10_Desc_7              : 'If you wish, enter some data. If you enter data, 
 HELP_10_Desc_8              : 'Select your wallet file -or- your private key and unlock your wallet. ',
 HELP_10_Desc_9              : 'Press the "GENERATE SIGNED TRANSACTION" button. ',
 HELP_10_Desc_10             : 'The data field below this button will populate with your signed transaction. Copy this and move it back to your online computer. ',
-HELP_10_Desc_11             : 'On your online computer, paste the signed transaction into the text field in step #3 and click "Enviar Akroma y Tokens". This will broadcast your transaction. ',
+HELP_10_Desc_11             : 'On your online computer, paste the signed transaction into the text field in step #3 and click "Enviar REOSC y Tokens". This will broadcast your transaction. ',
 
 HELP_12_Title               : '12) How do I import a wallet created with MyEtherWallet into geth / Ethereum Wallet / Mist? ',
 HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from MyEtherWallet v2+.... ',
@@ -818,13 +818,13 @@ HELP_12_Desc_27             : 'After successful import, delete `nothing_special_
 HELP_12_Desc_28             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
 
 HELP_13_Title               : '13) What does "Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX." Mean? ',
-HELP_13_Desc_1              : 'This means you do not have enough Akroma in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in Akroma. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of Akroma you were trying to send (if you were attempting to send Akroma). This will give you the amount of Akroma you need to send to that account to make the transaction. ',
+HELP_13_Desc_1              : 'This means you do not have enough REOSC in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in REOSC. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of REOSC you were trying to send (if you were attempting to send REOSC). This will give you the amount of REOSC you need to send to that account to make the transaction. ',
 
 HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. MyEtherWallet.com doesn\'t do this. Is the random number generation for MyEtherWallet safe? ',
 HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experments) believe in window.crypto. In addition, MyEtherWallet.com can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
 
 HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan) ',
-HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Akroma to it. ',
+HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some REOSC to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
 HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your account and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
@@ -862,7 +862,7 @@ HELP_Sec_Title              : 'Seguridad ',
 HELP_Sec_Desc_1             : 'Si una de tus primeras preguntas es "¿Por qué debería confiar en estas personas?, se trata de algo bueno. Esperamos que lo que sigue te sirva de ayuda para disminuir tus preocupaciones. ',
 HELP_Sec_Desc_2             : 'Hemos estado funcionando desde agosto de 2015. Si buscas ["myetherwallet" en reddit](https://www.reddit.com/search?q=myetherwallet), puedes encontrar numerosas personas que nos utilizan con gran éxito. ',
 HELP_Sec_Desc_3             : 'No vamos a quitarte tu dinero ni a robar tus claves privadas. No hay código malicioso en este sitio. De hecho, las páginas "Generar Cartera" se ejecutan por completo en el cliente. Esto significa que todo el código se ejecuta en ** tu ordenador** y nunca se graba o se transmite a ningún lugar. ',
-HELP_Sec_Desc_4             : 'Comprueba la URL -- Este sitio se sirve a través de GitHub y puedes ver el código fuente aquí: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) a [https://w.akroma.io](https://w.akroma.io). ',
+HELP_Sec_Desc_4             : 'Comprueba la URL -- Este sitio se sirve a través de GitHub y puedes ver el código fuente aquí: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) a [https://wallet.reosc.io](https://wallet.reosc.io). ',
 HELP_Sec_Desc_5             : 'Para generar carteras, puedes descargar el [código fuente](https://github.com/kvhnuke/etherwallet/releases/latest). Ver #5 más arriba. ',
 HELP_Sec_Desc_6             : 'Haz una prueba y observa qué actividad de red ocurre. La manera más fácil de hacer esto es hacer clic con el botón derecho en la página y hacer clic en "inspeccionar elemento". Ve a la pestaña "Red". Genera una cartera de prueba. Verás que no hay actividad de red. Puede que veas algo que aparece como data:image/gif y data:image/png. Se trata de los códigos QR generándose en tu ordenador y por tu ordenador. No se ha transferido ni un solo byte. ',
 HELP_Sec_Desc_8             : 'Si no te encuentras cómodo utilizando esta herramienta, no la utilices bajo ningún concepto. Hemos creado esta herramienta como una manera útil para que la gente pueda generar carteras y hacer transacciones sin tener que utilizar la línea de comandos o ejecutar un nodo completo. De nuevo, por favor contáctanos si tienes inquietudes y responderemos lo más pronto posible. ¡Gracias! ',

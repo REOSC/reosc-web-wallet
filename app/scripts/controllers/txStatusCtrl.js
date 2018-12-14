@@ -47,7 +47,7 @@ var txStatusCtrl = function($scope) {
                 from: ethUtil.toChecksumAddress(tx.from),
                 to: tx.to ? ethUtil.toChecksumAddress(tx.to) : '',
                 value: new BigNumber(tx.value).toString(),
-                valueStr: etherUnits.toEther(tx.value, 'wei') + " Akroma",
+                valueStr: etherUnits.toEther(tx.value, 'wei') + " REOSC",
                 gasLimit: new BigNumber(tx.gas).toString(),
                 gasPrice: {
                     wei: new BigNumber(tx.gasPrice).toString(),

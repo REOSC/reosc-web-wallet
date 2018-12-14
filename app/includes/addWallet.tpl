@@ -189,7 +189,7 @@
         </h4>
 
         <p class="text-danger" translate="ADD_Warning_1">
-          You can add any account to "watch" on the wallets tab without uploading a private key. This does ** not ** mean you have access to this wallet, nor can you transfer Akroma from it.
+          You can add any account to "watch" on the wallets tab without uploading a private key. This does ** not ** mean you have access to this wallet, nor can you transfer REOSC from it.
         </p>
 
         <div class="form-group">
@@ -351,10 +351,10 @@
       </h5>
       <ul class="account-info">
         <li>
-          <a href="https://explorer.akroma.io/address/{{wallet.getAddressString()}}"
+          <a href="https://explorer.reosc.io/address/{{wallet.getAddressString()}}"
              target="_blank"
              rel="noopener noreferrer">
-               https://explorer.akroma.io/address/{{wallet.getAddressString()}}
+               https://explorer.reosc.io/address/{{wallet.getAddressString()}}
           </a>
         </li>
       </ul>

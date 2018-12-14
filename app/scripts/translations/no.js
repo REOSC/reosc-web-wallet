@@ -99,7 +99,7 @@ EOS_02                          :  '**Register / Map your EOS Key**',
 EOS_03                          :  'Select `register`',
 EOS_04                          :  'Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!',
 EOS_05                          :  'Fund EOS Contract on Send Page',
-EOS_06                          :  'Go to Send Akroma & Tokens Page',
+EOS_06                          :  'Go to Send REOSC & Tokens Page',
 EOS_07                          :  'Unlock same wallet you are unlocking here.',
 EOS_08                          :  'Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`',
 EOS_09                          :  'Claim EOS Tokens',
@@ -167,8 +167,8 @@ ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://w.akroma.io`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `w.akroma.io` in green.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://wallet.reosc.io`.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `wallet.reosc.io` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -258,7 +258,7 @@ GEN_Unlock                  : 'Lås opp lommeboken for å se adressen. ',
 GAS_PRICE_Desc              : 'Gas-pris er beløpet du betaler per gas-enhet. `Transaksjonsavgift = gas-pris * gas-grense` & betales til "utgraverne" for å inkludere transaksjonen din i en blokk. Høyere gas-pris = raskere transaksjon, men dyrere. Standardinnstillingen er `41 GWEI`. ',
 GAS_LIMIT_Desc              : 'Gas-grense er mengden gas som sendes med transaksjonen din. `Tr.avg.` = gas-pris * gas-grense & betales til "utgraverne" for å inkludere transaksjonen din i en blokk. Å øke dette tallet vil ikke få gjennom transaksjonen din raskere. Ulike typer transaksjoner krever ulik mengde gas. F.eks. koster det `21000` å sende ETH og ~`200 000` å sende tokens. ',
 NONCE_Desc                  : '"Nonce" er antall transaksjoner som noensinne har blitt sendt fra en gitt adresse. Det sikrer at transaksjoner sendes i riktig rekkefølge, og ikke mer enn én gang. ',
-TXFEE_Desc                  : 'Transaksjonsavgiften betales til "utgraverne" for å inkludere transaksjonen din i en blokk. Det er `gas-grense` * `gas-pris`. [Du kan regne om GWEI -> ETH her](https://w.akroma.io/helpers.html)',
+TXFEE_Desc                  : 'Transaksjonsavgiften betales til "utgraverne" for å inkludere transaksjonen din i en blokk. Det er `gas-grense` * `gas-pris`. [Du kan regne om GWEI -> ETH her](https://wallet.reosc.io/helpers.html)',
 
 
 
@@ -276,7 +276,7 @@ NAV_InteractContract        : 'Samhandle med Kontrakt ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Mine lommebøker ',
 NAV_Offline                 : 'Send Offline ',
-NAV_SendEther               : 'Send Akroma & Tokens ',
+NAV_SendEther               : 'Send REOSC & Tokens ',
 NAV_SendTokens              : 'Send Tokens ',
 NAV_SignMsg                 : 'Signér Melding ',
 NAV_Swap                    : 'Veksling ',
@@ -285,7 +285,7 @@ NAV_YourWallets             : 'Dine lommebøker ',
 
 /* General */
 x_Access                    : 'Åpne ',
-x_AddessDesc                : 'Din `adresse` kalles også for `kontonummer` eller `offentlig nøkkel`. Det er denne du sender til folk så de kan sende deg Akroma eller Tokens. Find det fargerike adresse-ikonet. Forsikre deg om at det er likt med ikonet på papir-lommeboken din og ellers hver gang du oppgir adressen din. ',
+x_AddessDesc                : 'Din `adresse` kalles også for `kontonummer` eller `offentlig nøkkel`. Det er denne du sender til folk så de kan sende deg REOSC eller Tokens. Find det fargerike adresse-ikonet. Forsikre deg om at det er likt med ikonet på papir-lommeboken din og ellers hver gang du oppgir adressen din. ',
 x_Address                   : 'Din adresse ',
 x_Cancel                    : 'x_Annuler ',
 x_CSV                       : 'CSV-fil (ukryptert) ',
@@ -312,8 +312,8 @@ x_Wallet                    : 'Lommebok ',
 /* Header */
 MEW_Warning_1               : 'Sjekk alltid nettsideadressen før du bruker eller oppretter en lommebok. Pass opp for "phishing"-nettsider! ',
 CX_Warning_1                : 'Sørg for at du har **eksterne sikkerhetskopier** av alle lommebøker som du lagrer her. Mye kan hende som vil kunne medføre at du mister informasjonen i denne Chrome-utvidelsen, inkludert avinstallasjon og reinstallasjon av utvidelsen. Denne utvidelsen gir deg enkel tilgang til lommebøkene dine, men er **ikke** en måte å sikkerhetskopiere dem på. ',
-MEW_Tagline                 : 'Open Source JavaScript Client-Side Akroma Wallet ', /* Intentionally not translated */
-CX_Tagline                  : 'Open Source JavaScript Client-Side Akroma Wallet Chrome Extension ', /* Intentionally not translated */
+MEW_Tagline                 : 'Open Source JavaScript Client-Side REOSC Wallet ', /* Intentionally not translated */
+CX_Tagline                  : 'Open Source JavaScript Client-Side REOSC Wallet Chrome Extension ', /* Intentionally not translated */
 
 /* Footer */
 FOOTER_1                    : 'Et åpen-kildekode-, javascript-, klient-side-verktøy for å opprette Ethereum-lommebøker & sende transaksjoner. ',
@@ -405,7 +405,7 @@ BULK_Label_1                : 'Antall lommebøker som skal opprettes ',
 BULK_Label_2                : 'Opprett lommebøker ',
 BULK_SuccessMsg             : 'Suksess! Lommebøkene dine har blitt opprettet. ',
 
-/* Sending Akroma and Tokens */
+/* Sending REOSC and Tokens */
 SEND_addr                   : 'Til-adresse ',
 SEND_amount                 : 'Beløp som skal sendes ',
 SEND_amount_short           : 'Beløp ',
@@ -590,7 +590,7 @@ ERROR_24                    : 'Vennligst oppgi gyldig port ',
 ERROR_25                    : 'Vennligst oppgi gyldig kjede-ID ',
 ERROR_26                    : 'Vennligst oppgi gyldig ABI ',
 ERROR_27                    : 'Minimumsbeløp 0.01 ',
-ERROR_28                    : '**Du trenger din Keystore-fil & passord eller din private nøkkel** for å få tilgang til denne lommeboken i framtiden. Vennligst lagre og sikkerhetskopier den eksternt! Det finnes ingen måte å gjenopprette en lommebok på hvis du ikke lagrer den. Les [hjelpesiden](https://w.akroma.io/#help) for ytterligere instruksjoner (foreløpig kun på engelsk). ',
+ERROR_28                    : '**Du trenger din Keystore-fil & passord eller din private nøkkel** for å få tilgang til denne lommeboken i framtiden. Vennligst lagre og sikkerhetskopier den eksternt! Det finnes ingen måte å gjenopprette en lommebok på hvis du ikke lagrer den. Les [hjelpesiden](https://wallet.reosc.io/#help) for ytterligere instruksjoner (foreløpig kun på engelsk). ',
 ERROR_29                    : 'Vennligst oppgi gyldig brukernavn og passord ',
 ERROR_30                    : 'Vennligst oppgi et gyldig ENS-navn ',
 ERROR_31                    : 'Ugyldig hemmelig frase ',
@@ -634,7 +634,7 @@ PARITY_InvalidGasLimit      : "Tilført mengde gas er over grensen.",
 /* Tranlsation Info */
 translate_version           : '0.4 ',
 Translator_Desc             : 'Takk til oversetterne våre ',
-TranslatorName_1            : '[mrstormlars](https://w.akroma.io/?gaslimit=21000&to=mrstormlars.eth&value=1.0#send-transaction) ',
+TranslatorName_1            : '[mrstormlars](https://wallet.reosc.io/?gaslimit=21000&to=mrstormlars.eth&value=1.0#send-transaction) ',
 TranslatorAddr_1            : '',
 /* Translator 1             : Insert Comments Here */
 TranslatorName_2            : '',
@@ -666,7 +666,7 @@ HELP_0_Desc_4               : 'Verifiser at du har tilgang til denne nye lommebo
 HELP_0_Desc_5               : 'Overfør ether til den nye lommeboken. ',
 
 HELP_1_Title                : '1) Hvordan oppretter jeg en ny lommebok? ',
-HELP_1_Desc_1               : 'Gå til "Send Akroma & Tokens"-siden. ',
+HELP_1_Desc_1               : 'Gå til "Send REOSC & Tokens"-siden. ',
 HELP_1_Desc_2               : 'Gå til "Legg til lommebok"-siden & velg "Opprett ny lommebok" ',
 HELP_1_Desc_3               : 'Oppgi et sterkt passord. Hvis du ikke tror du klarer å huske det, skriv det opp på et sikkert sted. Du kommer til å trenge dette passordet for å sende transaksjoner. ',
 HELP_1_Desc_4               : 'Klikk "OPPRETT". ',
@@ -702,7 +702,7 @@ HELP_3_Desc_8               : 'Hvis du planlegger å lagre et stort ether-beløp
 
 HELP_4_Title                : '4) Hvordan sender jeg ether fra en lommebok til en annen? ',
 HELP_4_Desc_1               : 'Hvis du planlegger å flytte et stort ether-beløp, bør du testsende et lite beløp først for å forsikre deg om at alt går som planlagt. ',
-HELP_4_Desc_2               : 'Naviger til "Send Akroma & Tokens"-siden. ',
+HELP_4_Desc_2               : 'Naviger til "Send REOSC & Tokens"-siden. ',
 HELP_4_Desc_3               : 'Velg lommebok-filen din, eller din private nøkkel, og lås opp lommeboken din. ',
 HELP_4_Desc_4               : 'Hvis lommeboken er kryptert, vil det automatisk dukke opp en tekstboks hvor du må oppgi passordet ditt. ',
 HELP_4_Desc_5               : 'Klikk på "Lås opp lommebok"-knappen. ',
@@ -715,7 +715,7 @@ HELP_4_Desc_12              : 'En pop-up vil dukke opp. Verifiser at beløp og a
 HELP_4_Desc_13              : 'Transaksjonen vil bli sendt inn. Transaksjons-ID-en (TX-ID) vil vises. Du kan klikke på TX Hash for å se den på blokkjeden. ',
 
 HELP_4CX_Title              : '4) Hvordan sender jeg ether med MyEtherWallet CX (Chrome-utvidelsen)? ',
-HELP_4CX_Desc_1             : 'Først må du legge til en lommebok. Når du har gjort det, har du 2 muligheter: den kjappe "Send"-funksjonaliteten fra Chrome-utvidelsesikonet eller "Send Akroma & Tokens"-siden. ',
+HELP_4CX_Desc_1             : 'Først må du legge til en lommebok. Når du har gjort det, har du 2 muligheter: den kjappe "Send"-funksjonaliteten fra Chrome-utvidelsesikonet eller "Send REOSC & Tokens"-siden. ',
 HELP_4CX_Desc_2             : 'Send: ',
 HELP_4CX_Desc_3             : 'Klikk Chrome-utvidelsesikonet. ',
 HELP_4CX_Desc_4             : 'Klikk "Send"-knappen. ',
@@ -726,7 +726,7 @@ HELP_4CX_Desc_8             : 'Klikk "Send transaksjon". ',
 HELP_4CX_Desc_9             : 'Verifiser at adressen og beløpet er korrekt. ',
 HELP_4CX_Desc_10            : 'Oppgi passordet for lommeboken. ',
 HELP_4CX_Desc_11            : 'Klikk "Send transaksjon." ',
-HELP_4CX_Desc_12            : 'Bruk "Send Akroma & Tokens"-siden ',
+HELP_4CX_Desc_12            : 'Bruk "Send REOSC & Tokens"-siden ',
 
 HELP_5_Title                : '5) Hvordan kan jeg bruke MyEtherWallet.com offline/lokalt? ',
 HELP_5_Desc_1               : 'Du kan bruke MyEtherWallet.com på datamaskinen din i stedet for fra GitHub-serverne. Du kan opprette en lommebok fullstendig frakoblet fra internett, og sende transaksjoner fra "Send offline"-siden. ',
@@ -745,7 +745,7 @@ HELP_5CX_Desc_8             : 'Utvidelsen skal nå dukke opp blant utvidelsene d
 
 HELP_7_Title                : '7) Hvordan sender jeg token & legger til flere typer token? ',
 HELP_7_Desc_0               : '[Ethplorer.io](https://ethplorer.io/) er en flott måte å utforske token på, og for å finne informasjon om antall desimaler for en token. ',
-HELP_7_Desc_1               : 'Naviger til "Send Akroma & Tokens"-siden. ',
+HELP_7_Desc_1               : 'Naviger til "Send REOSC & Tokens"-siden. ',
 HELP_7_Desc_2               : 'Lås opp lommeboken din. ',
 HELP_7_Desc_3               : 'Oppgi adressen som du vil sende til i "Til adresse:"-feltet. ',
 HELP_7_Desc_4               : 'Oppgi beløpet som du vil sende. ',
@@ -772,7 +772,7 @@ HELP_8CX_Desc_1             : 'For det første er alle data lagret på din datam
 HELP_8CX_Desc_2             : 'Når det er sagt, så er det **svært viktig** at du sikkerhetskopierer all din informasjon for alle lommebøkene som du har opprettet med MyEtherWallet CX. På den måten vil du fortsatt ha all nødvendig informasjon for å få tilgang til eteren din selv om noe skulle hende med MyEtherWallet CX eller datamaskinen din. Se spørsmål #2a ang. hvordan du sikkerhetskopierer lommebøkene dine. ',
 HELP_8CX_Desc_3             : 'Hvis MyEtherWallet CX av en eller annen grunn skulle forsvinne fra Chrome Store, så kan du finne kildekoden på Github og laste den inn manuelt. Se #5 ovenfor. ',
 
-HELP_9_Title                : '9) Er "Send Akroma & Tokens"-siden offline? ',
+HELP_9_Title                : '9) Er "Send REOSC & Tokens"-siden offline? ',
 HELP_9_Desc_1               : 'Nei. Den trenger internett for å kunne skaffe den aktuelle gas-prisen, "nonce" for kontoen din, og for å kunne kringkaste transaksjonen (aka "send"). Imidlertid sender den kun den signerte transaksjonen. Din private nøkkel forblir i sikkerhet hos deg. Vi tilbyr nå også en "Offline transaction"-side slik at du kan forsikre deg om at dine private nøkler til enhver tid kun befinner seg på en offline/frakoblet datamaskin. ',
 
 HELP_10_Title               : '10) Hvordan lager jeg en frakoblet/offline transaksjon? ',
@@ -786,7 +786,7 @@ HELP_10_Desc_7              : 'Oppgi noe data hvis du vil. Hvis du oppgir data, 
 HELP_10_Desc_8              : 'Velg lommebokfilen din, eller din private nøkkel, og lås opp lommeboken din. ',
 HELP_10_Desc_9              : 'Trykk på "GENERER SIGNERT TRANSAKSJON"-knappen. ',
 HELP_10_Desc_10             : 'Datafeltet under denne knappen vil fylles med din signerte transaksjon. Kopier denne og flytt den tilbake til din tilkoblede datamaskin. ',
-HELP_10_Desc_11             : 'Lim inn den signerte transaksjonen i tekstfeltet i steg #3 på den tilkoblede maskinen og klikk "Send Akroma & Tokens". Dette vil kringkaste transaksjonen din. ',
+HELP_10_Desc_11             : 'Lim inn den signerte transaksjonen i tekstfeltet i steg #3 på den tilkoblede maskinen og klikk "Send REOSC & Tokens". Dette vil kringkaste transaksjonen din. ',
 
 HELP_12_Title               : '12) Hvordan kan jeg importere en lommebok opprettet med MyEtherWallet til geth / Ethereum Wallet / Mist? ',
 HELP_12_Desc_1              : 'Ved å bruke en Geth/Mist JSON-fil fra MyEtherWallet v2+.... ',
@@ -820,13 +820,13 @@ HELP_12_Desc_27             : 'Etter at du har lykkes med å importere kontoen, 
 HELP_12_Desc_28             : 'Neste gangen du åpner "Ethereum Wallet"-programmet, vil kontoen din være listet under "Accounts". ',
 
 HELP_13_Title               : '13) Hva betyr "Utilstrekkelige midler. Kontoen du prøver å sende transaksjon fra har ikke nok midler. Påkrevd XXXXXXXXXXXXXXXXXXX og fått: XXXXXXXXXXXXXXXX." ? ',
-HELP_13_Desc_1              : 'Dette betyr at du ikke har nok Akroma på kontoen din til å dekke gas-kostnaden. Hver transaksjon (inkludert token- og kontrakt-transaksjoner) krever gas, og gas betales med Akroma. Tallet som vises er beløpet som kreves for å dekke transaksjonskostnaden i Wei (1 ETH = 10^18 Wei). Ta dette tallet, del det på `1000000000000000000`, og trekk fra Akroma-beløpet som du prøvde å sende (hvis du prøvde å sende Akroma). Dette vil gi deg Akroma-beløpet som du mangler på (trenger å sende til) denne kontoen for å gjennomføre transaksjonen. ',
+HELP_13_Desc_1              : 'Dette betyr at du ikke har nok REOSC på kontoen din til å dekke gas-kostnaden. Hver transaksjon (inkludert token- og kontrakt-transaksjoner) krever gas, og gas betales med REOSC. Tallet som vises er beløpet som kreves for å dekke transaksjonskostnaden i Wei (1 ETH = 10^18 Wei). Ta dette tallet, del det på `1000000000000000000`, og trekk fra REOSC-beløpet som du prøvde å sende (hvis du prøvde å sende REOSC). Dette vil gi deg REOSC-beløpet som du mangler på (trenger å sende til) denne kontoen for å gjennomføre transaksjonen. ',
 
 HELP_14_Title               : '14) Noen nettsider randomiserer genereringen av den private nøkkelen via musebevegelser. MyEtherWallet.com gjør ikke dette. Er metoden som MyEtherWallet bruker til å generere tilfeldige tall sikker? ',
 HELP_14_Desc_1              : 'Selv om musebevegelses-metoden er smart og vi skjønner hvorfor folk liker den, så er realiteten at window.crypto sikrer mer entropi (tilfeldighet) enn musebevegelser. Musebevegelses-metoden er ikke usikker, men det er bare det at vi (og mange andre kryptoeksperter) har tro på window.crypto. I tillegg kan MyEtherWallet.com også benyttes på fingerstyrte enheter. Her er en [konversasjon mellom en sint redditor og Vitalik Buterin angående musebevegelser versus window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) og her er [window.crypto w3 spesifikasjonen](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
 
 HELP_15_Title               : '15) Hvorfor har ikke kontoen jeg nettopp opprettet dukket opp i blokkjede-utforskeren? (ie: etherchain, etherscan) ',
-HELP_15_Desc_1              : 'Kontoer vil kun dukke opp i en blokkjede-utforsker når kontoen har hatt aktivitet&mdash;for eksempel, når du har overført Akroma til den. ',
+HELP_15_Desc_1              : 'Kontoer vil kun dukke opp i en blokkjede-utforsker når kontoen har hatt aktivitet&mdash;for eksempel, når du har overført REOSC til den. ',
 
 HELP_16_Title               : '16) Hvordan kan jeg sjekke saldoen på kontoen min? ',
 HELP_16_Desc_1              : 'Du kan bruke en blokkjede-utforsker som [etherscan.io](https://etherscan.io/). Lim inn adressen i søkefeltet og den vil finne fram adressen og transaksjonshistorikken. For eksempel, her ser du hvordan vår [donasjonskonto](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) ser ut på etherscan.io ',
@@ -842,10 +842,10 @@ HELP_19_Desc_1              : 'Mist-filer lagres typisk i lokasjonene ovenfor, m
 HELP_20_Title               : '20) Hvor er pre-sale lommebok-filen? ',
 HELP_20_Desc_1              : 'Der du lagret den. ;) Den ble også sendt deg på e-post, så sjekk der. Se etter fila som heter `"ethereum_wallet_backup.json"` og velg den fila. Denne fila vil være kryptert med et passord som du opprettet under "pre-sale"-kjøpet. ',
 
-HELP_21_Title               : '21) Kan ikke hvem som helst legge inn tilfeldige private nøkler, sjekke saldoen, og sende Akroma til sin egen adresse? ',
-HELP_21_Desc_1              : 'Kortversjonen: ja, men å finne en konto som inneholder Akroma ville tatt lengre tid enn universets levealder...så...nei. ',
+HELP_21_Title               : '21) Kan ikke hvem som helst legge inn tilfeldige private nøkler, sjekke saldoen, og sende REOSC til sin egen adresse? ',
+HELP_21_Desc_1              : 'Kortversjonen: ja, men å finne en konto som inneholder REOSC ville tatt lengre tid enn universets levealder...så...nei. ',
 HELP_21_Desc_2              : 'Lang ELI5-versjon: Ethereum er basert på [Offentlig nøkkel-kryptografi](https://en.wikipedia.org/wiki/Public-key_cryptography), og mer spesifikt [Elliptic curve cryptography](https://eprint.iacr.org/2013/734.pdf), som er svært utbredt, ikke bare i Ethereum. De fleste servere er beskyttet via ECC. Bitcoin bruker den samme, likeså SSH og TLS og mange flere. Ethereum-nøklene er 256-bit nøkler, som er sterkere enn 128-bit og 192-bit, som også er mye brukt og fortsatt betraktes som sikre av ekspertene. ',
-HELP_21_Desc_3              : 'I denne har du en privat nøkkel og en offentlig nøkkel. Den private nøkkelen kan utlede den offentlige nøkkelen, men den offentlige nøkkelen kan ikke brukes for å finne den private nøkkelen. Det faktum at internett og verdens hemmeligheter bruker denne kryptografien betyr at hvis det blir funnet en måte å gå fra offentlige til private nøkler på, så vil dine tapte Akroma være det minste av alles problemer. ',
+HELP_21_Desc_3              : 'I denne har du en privat nøkkel og en offentlig nøkkel. Den private nøkkelen kan utlede den offentlige nøkkelen, men den offentlige nøkkelen kan ikke brukes for å finne den private nøkkelen. Det faktum at internett og verdens hemmeligheter bruker denne kryptografien betyr at hvis det blir funnet en måte å gå fra offentlige til private nøkler på, så vil dine tapte REOSC være det minste av alles problemer. ',
 HELP_21_Desc_4              : 'Når det er sagt, JA, hvis noen andre har din private nøkkel, så kan de såvisst sende ether fra din konto. Akkurat som hvis noen har passordet til e-posten din, så kan de lese og sende din e-post, eller passordet til bankkontoen din, så kan de overføre penger. Du kunne laste ned keystore-versjonen av den private nøkkelen din, som er den private nøkkelen som er kryptert med et passord. Dette blir som å ha et passord som er beskyttet av et annet passord. ',
 HELP_21_Desc_5              : 'og JA, i teorien kunne du bare taste inn en streng med 64 hexadesimaltegn helt dil du fant en som passet. Faktisk kunne smarte folk skrive et program som svært hurtig kunne sjekke tilfeldige private nøkler. Dette kalles "brute-forcing" eller "mining" private nøkler. Folk har tenkt lenge og hardt på dette. Med noen få svært gode servere, kunne de kanskje klare å sjekke >1M nøkler/sekund. Likevel, selv når så mange sjekkes per sekund, ville det ikke gi tilgang midler som ville gjøre det i nærheten av å være lønnsomt å kjøre disse serverne.  - Det er mer sannsynlig at du, eller dine oldebarn, vil dø før du får en match. ',
 HELP_21_Desc_6              : 'Hvis du vet noe om Bitcoin, [dette vil sette det i perspektiv:](http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver) *For å illustrere hvor usannsynlig det er: anta at alle satoshi av alle bitcoin som noensinne blir generert ble sendt til hver sin egen unike private nøkkel. Sannsynligheten for at det blant disse nøklene kunne være to som ville korrespondere med samme adresse er ca 1 til 10^20. ',
@@ -863,8 +863,8 @@ HELP_SecCX_Desc_6           : 'Hvis vi skulle kryptere disse, måtte du ha oppgi
 HELP_Sec_Title              : 'Datasikkerhet ',
 HELP_Sec_Desc_1             : 'Hvis en av dine første spørsmål er "Hvorfor skulle jeg stole på disse folkene?", så er det en god ting. Forhåpentligvis vil følgende bidra til å lette på frykten din. ',
 HELP_Sec_Desc_2             : 'Vi har vært oppe-og-gå siden august 2015. Hvis du søker etter ["myetherwallet" på reddit](https://www.reddit.com/search?q=myetherwallet), så kan du se mange folk som bruker oss med stor suksess. ',
-HELP_Sec_Desc_3             : 'Vi kommer ikke til å ta pengene dine eller stjele dine private nøkler. Det er ingen ondsinnet kode på denne siden. Faktisk er "Send Akroma & Tokens"-siden fullstendig klient-drevet. Det betyr at all koden blir kjørt på ** din datamaskin ** og det blir aldri lagret eller overført noe sted. ',
-HELP_Sec_Desc_4             : 'Sjekk nettsideadressen (URL) -- Denne siden blir drevet gjennom GitHub og du kan se kildekoden her: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) til domenet: [https://w.akroma.io](https://w.akroma.io). ',
+HELP_Sec_Desc_3             : 'Vi kommer ikke til å ta pengene dine eller stjele dine private nøkler. Det er ingen ondsinnet kode på denne siden. Faktisk er "Send REOSC & Tokens"-siden fullstendig klient-drevet. Det betyr at all koden blir kjørt på ** din datamaskin ** og det blir aldri lagret eller overført noe sted. ',
+HELP_Sec_Desc_4             : 'Sjekk nettsideadressen (URL) -- Denne siden blir drevet gjennom GitHub og du kan se kildekoden her: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) til domenet: [https://wallet.reosc.io](https://wallet.reosc.io). ',
 HELP_Sec_Desc_5             : 'For å generere lommebøker, kan du laste ned [kildekoden](https://github.com/kvhnuke/etherwallet/releases/latest). Se #5 ovenfor. ',
 HELP_Sec_Desc_6             : 'Kjør en test og sjekk hvilken nettverksaktivitet som skjer. Den enkleste måten som du kan gjøre dette på er å høyreklikke på siden og klikke "inspiser element". Gå til "Nettverk"-flippen. Generer en test-lommebok. Du vil se at det ikke er noen nettverksaktivitet. Du vil se at noe som ser ut som data:image/gif og data:image/png skjer. Disse er QR-kodene som blir generert...på din datamaskin...av din datamaskin. Ingen bytes ble overført. ',
 HELP_Sec_Desc_8             : 'Hvis du ikke er komfortabel med å bruke dette verktøyet, så for all del, ikke bruk det. Vi laget dette verktøyet som et hjelpemiddel for folk som vil opprette lommebøker og utføre transaksjoner uten å måtte dykke ned i kommandolinjeoperasjoner eller kjøre en full node. Igjen, ta gjerne kontakt hvis du har bekymringer og vi vil gi tilbakemelding så snart som mulig. Takk! ',

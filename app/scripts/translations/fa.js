@@ -99,7 +99,7 @@ EOS_02                          :  '**Register / Map your EOS Key**',
 EOS_03                          :  'Select `register`',
 EOS_04                          :  'Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!',
 EOS_05                          :  'Fund EOS Contract on Send Page',
-EOS_06                          :  'Go to Send Akroma & Tokens Page',
+EOS_06                          :  'Go to Send REOSC & Tokens Page',
 EOS_07                          :  'Unlock same wallet you are unlocking here.',
 EOS_08                          :  'Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`',
 EOS_09                          :  'Claim EOS Tokens',
@@ -167,8 +167,8 @@ ONBOARD_secure_title            :  'How To Protect Yourself & Your Funds',
 ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
-ONBOARD_secure_1_content__3     :  'Always check the URL: `https://w.akroma.io`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `w.akroma.io` in green.',
+ONBOARD_secure_1_content__3     :  'Always check the URL: `https://wallet.reosc.io`.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `wallet.reosc.io` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -360,7 +360,7 @@ BULK_Label_1: 'تعداد کیف پول هایی که می خواهید بساز
 BULK_Label_2: 'ساخت کیف پول ها ',
 BULK_SuccessMsg: 'ساخت کیف پول های شما با موفقیت انجام شد. ',
 
-/* Sending Akroma and Tokens */
+/* Sending REOSC and Tokens */
 
 SEND_addr: 'به آدرس ',
 SEND_amount: 'مقدار ارسالی ',
@@ -517,7 +517,7 @@ ERROR_23                        :  '(error_24) لطفا یک پورت معتبر
 ERROR_24                        :  '(error_25) لطفا آیدی زنجیره معتبر وارد کنید Please enter a valid port.', // 24
 ERROR_25                        :  '(error_26) لطفا ABI معتبر وارد کنید Please enter a valid chain ID.', // 25
 ERROR_26                        :  '(error_27) کمترین مقدار: 0.01 ، بیشترین مقدار: Please enter a valid ABI.', // 26
-ERROR_27                        :  '(error_28) برای دسترسی به این کیف پول در آینده به فایل Keystore و رمزعبور خود (یا کلید خصوصی) نیاز خواهید داشت. لطفا آن را ذخیره کنید و یک نسخه پشتیبان خارجی بسازید. اگر آن را ذخیره نکنید، هیچ راهی برای بازگرداندن کیف پول وجود ندارد. برای راهنمایی [صفحه کمک](https://w.akroma.io/#help)  را مطالعه بفرمایید. Minimum amount: 0.01. Max amount:', // 27
+ERROR_27                        :  '(error_28) برای دسترسی به این کیف پول در آینده به فایل Keystore و رمزعبور خود (یا کلید خصوصی) نیاز خواهید داشت. لطفا آن را ذخیره کنید و یک نسخه پشتیبان خارجی بسازید. اگر آن را ذخیره نکنید، هیچ راهی برای بازگرداندن کیف پول وجود ندارد. برای راهنمایی [صفحه کمک](https://wallet.reosc.io/#help)  را مطالعه بفرمایید. Minimum amount: 0.01. Max amount:', // 27
 ERROR_28                        :  '(error_29) لطفا شناسه و رمزعبور معتبر وارد کنید You need this `Keystore File + Password` or the `Private Key` (next page) to access this wallet in the future. ', // 28
 ERROR_29                        :  '(error_30) لطفا نام ENS معتبر وارد کنید Please enter a valid user and password.', // 29
 ERROR_30                        :  '(error_31) عبارت خصوصی نامعتبر است Please enter a valid name (7+ characters, limited punctuation)', // 30
@@ -588,7 +588,7 @@ HELP_Remind_Desc_2: 'گزینه هایی مثل MyEtherWallet.com و MyWtherWall
 HELP_Remind_Desc_3: 'اگر رمز عبور و کلید خصوصی خود را ذخیره نکنید، هیچ راهی برای دسترسی دوباره به کیف پول خود و سرمایه موجود در آن نخواهید داشت. از آن ها در مکان های فیزیکی مختلف (نه فقط در کامپیوتر خود) چندین نسخه پشتیبان تهیه کنید. ',
 
 HELP_0_Title: 'سوال 0: من تازه کار هستم. چگونه شروع کنم؟ ',
-HELP_0_Desc_1: 'وبسایت MyEtherWallet به شما امکان ساخت کیف پول های جدید جهت ذخیره اتر (Akroma)خود در آن را برای شما فراهم می کند تا دیگر نیازی به ذخیره سرمایه خود در یک صرافی نداشته باشید. این فرآیند بطور کامل بر روی کامپیوتر شما، و نه بر روی سرورها، انجام می شود. به همین خاطر زمانی که یک کیف پول جدید می سازید، **خودتان مسئول ایجاد یک نسخه پشتیبان از آن هستید**. ',
+HELP_0_Desc_1: 'وبسایت MyEtherWallet به شما امکان ساخت کیف پول های جدید جهت ذخیره اتر (REOSC)خود در آن را برای شما فراهم می کند تا دیگر نیازی به ذخیره سرمایه خود در یک صرافی نداشته باشید. این فرآیند بطور کامل بر روی کامپیوتر شما، و نه بر روی سرورها، انجام می شود. به همین خاطر زمانی که یک کیف پول جدید می سازید، **خودتان مسئول ایجاد یک نسخه پشتیبان از آن هستید**. ',
 HELP_0_Desc_2: 'ایجاد یک کیف پول جدید ',
 HELP_0_Desc_3: 'از کیف پول نسخه پشتیبان تهیه کنید ',
 HELP_0_Desc_4: 'تایید کنید که به این کیف پول جدید دسترسی دارید و تمام اطلاعات لازم را ذخیره کرده اید. ',
@@ -793,7 +793,7 @@ HELP_Sec_Title: 'امنیت ',
 HELP_Sec_Desc_1: 'ممکن است یکی از اولین سوالاتی که به ذهنتان می رسد این باشد که ""چرا باید به این افراد اعتماد کنم؟""؛ این سوال خوبی ست که ادامه می توانید جوابی برای آن جهت کم کردن ترس خود پیدا کنید. ',
 HELP_Sec_Desc_2: 'ما از آگوست 2015 در حال فعالیت هستیم. اگر در [reddit](https://www.reddit.com/search?q=myetherwallet) بدنبال myetherwallet بگردید، تعداد زیادی از کاربران را خواهید دید که از سرویس ما با موفقیت استفاده کرده اند.  ',
 HELP_Sec_Desc_3: 'ما نمی خواهیم که پول شما را بگیریم و یا کلیدهای خصوصی شما را بدزدیم. هیچ کد خرابی در این سایت وجود ندارد. در واقع صفحه های ""ایجاد کیف پول"" در سمت کاربر هستند (client-side). این بدان معناست که تمام کدها بر روی کامپیوتر خود شما اجرا می شود و هرگز جای دیگری ارسال و یا ذخیره نمی شود. ',
-HELP_Sec_Desc_4: 'این سایت از طریق GitHub ارائه می شود، می توانید کد اصلی یا Source Code آن را در این آدرس ببینید:  [https://github.com/kvhnuke/etherwallet/tree/gh-](https://github.com/kvhnuke/etherwallet/tree/gh-pages) و [https://w.akroma.io](https://w.akroma.io). ',
+HELP_Sec_Desc_4: 'این سایت از طریق GitHub ارائه می شود، می توانید کد اصلی یا Source Code آن را در این آدرس ببینید:  [https://github.com/kvhnuke/etherwallet/tree/gh-](https://github.com/kvhnuke/etherwallet/tree/gh-pages) و [https://wallet.reosc.io](https://wallet.reosc.io). ',
 HELP_Sec_Desc_5: 'برای ایجاد کیف پول، می توانید کد منبع را دانلود کنید و آن را بصورت محلی اجرا کنید. به سوال شماره 5 مراجعه کنید. (https://github.com/kvhnuke/etherwallet/releases/latest) ',
 HELP_Sec_Desc_6: 'یک کیف پول تستی بسازید و به بررسی فعالیت شبکه بپردازید. ساده ترین راه این است که بر روی سایت کلیک راست کرده و گزینه ""inspect element"" را انتخاب کنید. به قسمت ""Network"" بروید. یک کیف پول آزمایشی بسازید. خواهید دید که هیچ فعالیت شبکه ای در آن جا رخ نمی دهد. خواهید دید که اتفاقی در حال رخداد است که همانند داده هایی مثل عکس یا گیف هستند. آن ها کدهای QR هستند که در حال ساخته شدن بر روی کامپیوتر شما و توسط کامپیوتر شما هستند. هیچ بایتی جابجا نمی شود. ',
 HELP_Sec_Desc_8: 'اگر با استفاده از این ابزار راحت نیستید آن را کنار بگذارید. ما این ابزار را بعنوان یک راه موثر جهت ایجاد کیف پول و تراکنش بدون نیاز به اجرای یک فول نود یا رفتن به خط فرمان درست کرده ایم. در هر صورت اگر سوالی ذهن شما را به خود مشغول کرده می توانید با ما در ارتباط باشید و ما نیز در اولین فرصت پاسخگوی شما خواهیم بود. با تشکر از توجه شما ',

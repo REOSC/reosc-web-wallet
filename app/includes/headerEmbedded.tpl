@@ -2,9 +2,9 @@
 <html lang="en" ng-app="mewApp">
 <head>
   <meta charset="utf-8">
-  <title>Akroma Web Wallet</title>
-  <link rel="canonical" href="https://w.akroma.io" />
-  <meta name="description" content="Akroma Web Wallet is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( w.akroma.io ) before unlocking your wallet.">
+  <title>REOSC Web Wallet</title>
+  <link rel="canonical" href="https://wallet.reosc.io" />
+  <meta name="description" content="REOSC Web Wallet is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( wallet.reosc.io ) before unlocking your wallet.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/etherwallet-master.min.css">
@@ -32,6 +32,6 @@
 
 <header class="bg-gradient text-white">
 <section class="container text-center">
-  <a href="https://w.akroma.io/"><img src="images/logo-myetherwallet.svg" height="50px" width="auto" alt="Akroma Wallet" class="embedded-logo" /></a>
+  <a href="https://wallet.reosc.io/"><img src="images/logo-myetherwallet.svg" height="50px" width="auto" alt="REOSC Wallet" class="embedded-logo" /></a>
 </section>
 </header>
